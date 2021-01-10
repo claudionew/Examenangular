@@ -12,7 +12,8 @@ import { HeaderComponent } from './loyout/header/header.component';
     AppComponent,
     LoyoutComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+     
   ],
   imports: [
     BrowserModule,
