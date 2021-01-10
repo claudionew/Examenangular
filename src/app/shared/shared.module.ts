@@ -11,6 +11,6 @@ import { CursilloComponent } from './cursillo/cursillo.component';
     CommonModule,
     SharedRoutingModule
   ],
-  exports:[CursilloComponent]
+  exports: [CursilloComponent]
 })
 export class SharedModule { }
