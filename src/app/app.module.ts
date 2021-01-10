@@ -13,7 +13,6 @@ import { HeaderComponent } from './loyout/header/header.component';
     LoyoutComponent,
     FooterComponent,
     HeaderComponent,
-     
   ],
   imports: [
     BrowserModule,

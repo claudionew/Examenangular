@@ -6,9 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./curso-container.component.scss']
 })
 export class CursoContainerComponent implements OnInit {
-
+  listCurso: any[] = [];
   constructor() { }
-
   ngOnInit(): void {
   }
 
