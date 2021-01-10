@@ -1,14 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AdministradorModule } from './administrador.module';
+import { AdministradorComponent } from './pages/administrador/administrador.component';
 
-const routes: Routes = [
-{
+const routes: Routes = [{
   path: '',
-    component: AdministradorModule
-}
-
-];
+  component: AdministradorComponent
+}];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
