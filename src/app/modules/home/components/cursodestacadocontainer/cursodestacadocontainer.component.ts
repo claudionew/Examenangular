@@ -13,6 +13,7 @@ export class CursodestacadocontainerComponent implements OnInit {
   constructor(private cursodestaserv: CoursedestacadoService ) { }
 
   ngOnInit(): void {
+    this.getcoursesdestaca()
   }
   getcoursesdestaca(){
     this.cursodestaserv.getcoursesdestaca()

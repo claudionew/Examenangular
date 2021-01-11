@@ -11,8 +11,7 @@ export class CursilloComponent implements OnInit {
  /*  
 @Input() curso: any[];
 @Input() coverWitdh: number;*/ 
- @Input()
- cursillos!: ICurso
+ @Input() cursillos: ICurso
 
   constructor() { }
 
