@@ -1,4 +1,5 @@
 import { Component, OnInit, Input} from '@angular/core';
+import { ICurso } from '../interfaces/course';
 
 @Component({
   selector: 'app-cursillo',
@@ -7,11 +8,18 @@ import { Component, OnInit, Input} from '@angular/core';
 })
 export class CursilloComponent implements OnInit {
 
-@Input() cursos: any[];
-@Input() coverWitdh: number;
+ /*  
+@Input() curso: any[];
+@Input() coverWitdh: number;*/ 
+ @Input()
+ cursillos!: ICurso
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
 }
+
+
+ 

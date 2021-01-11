@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { LoyoutComponent } from './loyout/loyout.component';
 import { FooterComponent } from './loyout/footer/footer.component';
 import { HeaderComponent } from './loyout/header/header.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { HeaderComponent } from './loyout/header/header.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

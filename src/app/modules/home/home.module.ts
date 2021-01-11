@@ -8,12 +8,18 @@ import { CursodestacadocontainerComponent } from './components/cursodestacadocon
 import { HeaderComponent } from './components/header/header.component';
 import { InstructoresComponent } from './components/instructores/instructores.component';
 import { InstructorescontainerComponent } from './components/instructorescontainer/instructorescontainer.component';
+import { InstructoreService } from './services/instructore.service';
+import { SharedModule } from 'src/app/shared/shared.module';
+import { CoursedestacadoService } from './services/coursedestacado.service';
+import { CourseService } from './services/course.service';
 
 @NgModule({
   declarations: [HomeComponent, CursodestacadocontainerComponent, HeaderComponent, InstructoresComponent, InstructorescontainerComponent],
   imports: [
     CommonModule,
-    HomeRoutingModule
-  ]
+    HomeRoutingModule,
+    SharedModule
+  ],
+  providers: [InstructoreService,CoursedestacadoService,CourseService]
 })
 export class HomeModule { }

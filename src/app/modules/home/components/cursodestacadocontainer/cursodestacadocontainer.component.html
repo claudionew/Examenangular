@@ -1,1 +1,16 @@
-<p>cursodestacadocontainer works!</p>
+
+<span class="border">
+
+    <div style="text-align: center;">
+
+        <h1 class="display-3">CURSOS DESTACADOS</h1>
+
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-3 g-2">
+
+        <app-cursillo *ngFor="let item of lstcursodes" [cursillos]="item"></app-cursillo>
+
+    </div>
+</span>
+
